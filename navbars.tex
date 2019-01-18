@@ -1,0 +1,62 @@
+%% This is a skeleton file demonstrating the use of IEEEtran.cls (requires IEEEtran.cls version 1.8a or later) with an IEEE conference paper.
+%%
+%% Modified by Khan Reaz( kahn.reaz@ieee.org)
+%% Support sites:
+%% http://www.ieee.org/
+
+%%***********************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or implied; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE! 
+%% User assumes all risk and can modify as s/he wants.
+
+%%***********************************************************
+
+%package list
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+
+
+\begin{document}
+
+%Here goes the title
+
+\title{Concern Oriented Navigation Bar}
+
+
+%Authors List
+
+\author
+{\IEEEauthorblockN{Author 1}
+\IEEEauthorblockA{School of Electrical and\\Computer Engineering\\
+University\\
+Location\\
+Email: }
+\and
+\IEEEauthorblockN{Author 2}
+\IEEEauthorblockA{University\\
+Location\\
+Email: }
+}
+\maketitle
+
+
+%Main body starts
+
+\begin{abstract}
+The advent of modeling in software engineering, like other engineering fields, has revolutionized the formalism and pace of software development. These models used at the different levels of abstraction during software development often relate and communicate among one another. A concern is a generic unit of reuse which groups related models (e.g., class diagrams, sequence diagrams, state machines) that cut across software application. However, in concern oriented reuse and other software development paradigms, little or no attention has been drawn on these related models are navigated both internally (intra model navigation) and externally (inter models navigation). This paper aims to establish an easy-to-use and streamlined mechanism of navigation among related model artifacts. Our navigation mechanism is augmented with different colors indicating where a model element (to-elements) are located. Our findings will improve the development of concerns and other software application which involves related models.
+\end{abstract}
+
+
+\begin {IEEEkeywords}
+Navigation. Bars, Concerns, Reuse.
+\end{IEEEkeywords}
+
+ \input{sections/body.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography}
+
+\end{document}
